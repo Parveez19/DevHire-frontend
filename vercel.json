@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://your-backend-api.herokuapp.com/api/$1"
+    }
+  ],
+  "env": {
+    "API_URL": "https://your-backend-api.herokuapp.com"
+  }
+}
