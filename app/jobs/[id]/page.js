@@ -10,7 +10,7 @@ export default function JobDetails({ params }) {
   const { user, isAuthenticated } = useAuth();
   const [job, setJob] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [applying, setApplying] = useState(false);
+  // const [applying, setApplying] = useState(false);
   const [applied, setApplied] = useState(false);
 
   // ✅ FIX: Unwrap params using React.use()

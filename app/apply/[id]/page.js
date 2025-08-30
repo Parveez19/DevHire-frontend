@@ -8,7 +8,7 @@ import api from '../../../utils/api';
 
 export default function ApplyJob({ params }) {
   const router = useRouter();
-  const { user, isAuthenticated } = useAuth();
+  const { isAuthenticated } = useAuth();
   
   // ✅ Fix for Next.js 15 params
   const { id } = use(params);
@@ -222,7 +222,7 @@ export default function ApplyJob({ params }) {
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
               <p className="text-blue-800">
                 <strong>Portal Application:</strong> Your application will be submitted through JobPortal 
-                and you'll receive an email confirmation.
+                and you will receive an email confirmation.
               </p>
             </div>
           )}

@@ -64,7 +64,7 @@ export default function Profile() {
             </div>
           ) : applications.length === 0 ? (
             <div className="text-center py-8">
-              <p className="text-gray-500 mb-4">You haven't applied to any jobs yet.</p>
+              <p className="text-gray-500 mb-4">You haven&apos;t applied to any jobs yet.</p>
               <Link href="/" className="text-blue-600 hover:text-blue-800">
                 Browse Jobs →
               </Link>
