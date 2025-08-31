@@ -22,7 +22,7 @@ export default function Layout({ children }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="text-xl font-bold text-blue-600">
-              JobPortal
+              Devhire
             </Link>
             
             <nav className="flex items-center space-x-4">
@@ -72,7 +72,7 @@ export default function Layout({ children }) {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p>&copy; 2025 JobPortal. All rights reserved.</p>
+          <p>&copy; 2025 Devhire. All rights reserved.</p>
         </div>
       </footer>
     </div>

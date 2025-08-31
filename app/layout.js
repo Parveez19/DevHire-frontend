@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'JobPortal - Find Your Dream Job',
+  title: ' - Find Your Dream Job',
   description: 'Discover thousands of IT jobs from top companies',
 }
 
